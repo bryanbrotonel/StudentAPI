@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPI", "StudentAPI\StudentAPI.csproj", "{E5D7B7AA-8948-4937-90FE-9091D97BA515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORSClient", "CORSClient\CORSClient.csproj", "{5C9683DF-BD17-4652-BAF5-F0813EEEF95E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5D7B7AA-8948-4937-90FE-9091D97BA515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D7B7AA-8948-4937-90FE-9091D97BA515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D7B7AA-8948-4937-90FE-9091D97BA515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9683DF-BD17-4652-BAF5-F0813EEEF95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9683DF-BD17-4652-BAF5-F0813EEEF95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9683DF-BD17-4652-BAF5-F0813EEEF95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9683DF-BD17-4652-BAF5-F0813EEEF95E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
