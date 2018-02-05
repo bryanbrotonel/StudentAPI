@@ -1,5 +1,5 @@
-﻿Enable-Migrations -ContextTypeName PlacesContext -MigrationsDirectory Migrations\Places
+﻿Enable-Migrations -ContextTypeName ApplicationDbContext -MigrationsDirectory Migrations\Entities
 
-Add-Migration -ConfigurationTypeName Code_First_Lab.Migrations.Places.Configuration "InitialCreate"
+Add-Migration -ConfigurationTypeName StudentAPI.Migrations.Entities.Configuration "InitialCreate"
 
-Update-Database -ConfigurationTypeName Code_First_Lab.Migrations.Places.Configuration
+Update-Database -ConfigurationTypeName StudentAPI.Migrations.Entities.Configuration
